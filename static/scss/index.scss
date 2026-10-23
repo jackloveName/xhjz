@@ -1,0 +1,24 @@
+// global
+@import "./global.scss";
+// color-ui
+@import "@/static/scss/colorui.css";
+// iconfont
+@import "@/static/font/iconfont.css";
+view,text,image{
+	box-sizing: border-box;
+	line-height: 1.5;
+}
+:root{
+	--primary-color:#FF6B35;
+	--secondary-color:#2D3142;
+	--income-color:#4CAF50;
+	--expense-color:#EF5350;
+	--bg-light:#F8F9FA;
+	--text-primary:#1A1A2E;
+	--text-secondary:#6B7280;
+	--card-shadow:0 4px 20px rgba(0,0,0,0.05);
+	--box-shadow:rgba(255,107,53,.15)
+}
+page,uni-page-body{
+	background-color:#F8F9FA;
+}
